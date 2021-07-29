@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Learning CSS</title>
+        <style>
+            .bbox1{
+                background-color:gray;
+                padding: 5px;
+                display:grid;
+                grid-template-columns:50% 50%;
+                column-gap: 5px;
+            }
+            .sbox1{
+                background-color:skyblue;
+                color:black;
+                padding: 5px;
+                text-align: center;
+
+            }
+            .bbox2{
+                background-color: greenyellow;
+                padding:5px;
+                display:grid;
+                grid-template-columns: 33.333333% 33.333333% 33.333333%;
+                column-gap: 5px;
+            
+            }
+            .sbox2{
+                background-color: black;
+                color: cornsilk;
+                padding: 2px
+
+            }
+            .bbox3{
+                background-color: crimson;
+                color: cyan;
+                padding: 3px;
+            }
+            .bbox4{
+                background-color: darkgrey;
+                display:grid;
+                grid-template-columns: 25% 25% 25% 25%;
+                padding:6px;
+                text-align: center;
+            }
+            .sbox4{
+                background-color: lightcyan;
+                padding:5px;
+            }
+            img{
+                max-width: 25%;
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+        <div class="bbox1">
+            <div class= "sbox1">
+                <p>Sub Box 1.1</p>
+            </div>
+            <div class="sbox1">
+                <p>Sub box 1.2</p>
+            </div>
+        </div>
+        <div class= "bbox2">
+            <div class = "sbox2">
+                <p>Sub box 2.1</p>
+            </div>
+            <div class= "sbox2">
+                <p>Sub box 2.2</p>
+            </div>
+            <div class="sbox2">
+                <p>Sub box 2.3</p>
+            </div>
+        </div>
+        <div class="bbox3">
+            <marquee>Just testing if it works</marquee>
+        </div>
+        <div class="bbox4">
+            <div class=sbox4>
+               <img src="https://i.guim.co.uk/img/media/e257becfec477105123f06f96db4529966b4035c/0_391_6048_3628/master/6048.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=6a3a587e64662d409ef25b3215fb5ac0 ">
+
+            </div>
+            <div class=sbox4>
+                <img src="https://i.guim.co.uk/img/media/e257becfec477105123f06f96db4529966b4035c/0_391_6048_3628/master/6048.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=6a3a587e64662d409ef25b3215fb5ac0 ">
+                
+             </div>
+             <div class=sbox4>
+                <img src="https://i.guim.co.uk/img/media/e257becfec477105123f06f96db4529966b4035c/0_391_6048_3628/master/6048.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=6a3a587e64662d409ef25b3215fb5ac0 ">
+                
+             </div>
+             <div class=sbox4>
+                <img src="https://i.guim.co.uk/img/media/e257becfec477105123f06f96db4529966b4035c/0_391_6048_3628/master/6048.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=6a3a587e64662d409ef25b3215fb5ac0 ">
+                
+             </div>
+        </div>
+        <button onclick="this.innerHTML=Date()">Date Time Now</button>
+    </body>
+</html>
